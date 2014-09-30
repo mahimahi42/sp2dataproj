@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=data\ next
+comment0.target=Node(int,\ Node)
+comment0.text=\n\ Primary\ constructor.\ \n\ This\ creates\ a\ new\ <code>Node</code>\n\ with\ <code>int</code>\ data\ <code>data</code>\ and\ a\ \n\ reference\ to\ the\ next\ <code>Node</code>\ in\ the\ list\n\ called\ <code>next</code>,\n\ \n\ @param\ data\ data\ the\ <code>Node</code>\ holds\n\ @param\ next\ the\ next\ <code>Node</code>\ in\ the\ list\n
+comment1.params=
+comment1.target=int\ getData()
+comment1.text=\n\ Gets\ the\ <code>int</code>\ data\ stored\ by\ this\ \n\ <code>Node</code>.\n\ \n\ @return\ the\ data\ for\ this\ <code>Node</code>\n
+comment2.params=
+comment2.target=Node\ getNextReference()
+comment2.text=\n\ Gets\ the\ reference\ to\ the\ next\ <code>Node</code>\ linked\n\ in\ the\ list.\n\ \n\ @return\ the\ next\ <code>Node</code>\ in\ the\ list\n
+comment3.params=next
+comment3.target=void\ setNextReference(Node)
+comment3.text=\n\ Sets\ the\ reference\ to\ the\ next\ <code>Node</code>\ in\ the\ \n\ list.\n\ \n\ @param\ next\ the\ next\ <code>Node</code>\ in\ the\ list\n
+numComments=4

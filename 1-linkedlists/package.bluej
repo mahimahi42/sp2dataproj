@@ -1,3 +1,18 @@
 #BlueJ package file
-#Tue Sep 30 08:00:20 EDT 2014
+objectbench.height=76
+objectbench.width=662
+package.editor.height=400
+package.editor.width=560
+package.editor.x=138
+package.editor.y=90
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
 project.charset=UTF-8
+target1.height=62
+target1.name=edu
+target1.type=PackageTarget
+target1.width=80
+target1.x=70
+target1.y=10
