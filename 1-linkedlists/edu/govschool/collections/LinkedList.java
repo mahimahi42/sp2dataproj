@@ -1,10 +1,11 @@
 package edu.govschool.collections;
 
 /**
- * Write a description of class LinkedList here.
+ * This is a basic singly-linked list to store <code>int</code>
+ * data.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Bryce Davis
+ * @version 1.0
  */
 public class LinkedList
 {
