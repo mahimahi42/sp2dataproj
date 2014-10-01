@@ -184,6 +184,29 @@ public class LinkedList
     }
     
     /**
+     * Returns <code>true</code> if the list contains the value <code>num</code>.
+     * Otherwise, the method returns <code>false</code>.
+     * 
+     * @param num the value to check the list for
+     */
+    public boolean contains(int num) {
+        if (this.isEmpty()) {
+            return false;
+        } else if (head == tail && head.getData() != num) {
+            return false;
+        } else {
+            Node curr = head;
+            while (curr != null) {
+                if (curr.getData() == num) {
+                    return true;
+                }
+                curr = curr.getNextReference();
+            }
+            return false;
+        }
+    }
+    
+    /**
      * Prints a readable representation of the list.
      * If the list is empty, informs the user. Otherwise,
      * prints a representation of the <code>int</code> values
